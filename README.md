@@ -1,16 +1,13 @@
-# is_dev_or_not
+# Is Debug or not
 
 Um plugin em flutter que verifica se o dispositivo está em modo desenvolvimento ou no modo padrão.
 
-## Getting Started
+Android:
 
-This project is a starting point for a Flutter application.
+```
+  print(await IsDebug.getNativeIsDebugOrNot());
+```
 
-A few resources to get you started if this is your first Flutter project:
+Você pode colocar ele em uma variavel boolean no flutter, só que precisará adicionar o await para evitar erros.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Qualquer erro comente na guia de issues no github
